@@ -19,7 +19,7 @@ Clustering tweets by concepts
 | Name      | github username |
 | ----------- | ----------- |
 | Wei He      | RachelH2513 |
-| Gabrielle   |         |
+| Gabrielle   | gabrielleviray |
 | Roy Luo   |         |
 
 

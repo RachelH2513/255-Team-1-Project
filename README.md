@@ -2,7 +2,7 @@
 | ----------- | ----------- |
 | Wei He      | RachelH2513 |
 | Gabrielle   | gabrielleviray |
-| Roy Luo   |         |
+| Roy Luo     | binwangluo  |
 
 ### Project Title: Who’ll win? Prediction of the Election’s result.
 

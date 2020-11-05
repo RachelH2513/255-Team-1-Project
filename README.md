@@ -26,6 +26,10 @@ This project will try multiple approaches to build different classifier model to
 election.
 
 ### Potential Methods
+We propose two methods to predict the election:
+One is using existing records from data source 1 to make prediction. 
+The second one is trying to collect data by ourselves from social media APIs such as either twitter and Facebook.
+
 A brief description of the steps we will take to complete the project:
 1. Data pre-processing: Importing libraries and data.
 2. Data Analysis and Exploration

@@ -7,8 +7,16 @@
 ### Project Title: Who’ll win? Prediction of the Election’s result.
 
 ### Data Source
-election-forecasts-2020.csv from
+1. election-forecasts-2020.csv from
 https://github.com/fivethirtyeight/data/tree/master/election-forecasts-2020
+
+The data set contains records from 6/1/2020 to 10/9/2020. 
+We can train the data to generate the model and then predict the furture records (after 10/9/2020) until 11/3/2020 the election day.
+
+2. social medias API Twitter/Facebook
+Facebook has its own voting channel that we assume we could take use of. 
+Twitter provides APIs that search historical Tweets to analyze based on contextual, implicit topics or keywords. 
+Refer to https://developer.twitter.com/en
 
 ### Problem/Question
 Twitter has become an important communication channel of Election. People can announce a

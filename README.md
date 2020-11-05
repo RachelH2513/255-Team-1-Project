@@ -14,6 +14,7 @@ The data set contains records from 6/1/2020 to 10/9/2020.
 We can train the data to generate the model and then predict the furture records (after 10/9/2020) until 11/3/2020 the election day.
 
 2. social medias API Twitter/Facebook
+
 Facebook has its own voting channel that we assume we could take use of. 
 Twitter provides APIs that search historical Tweets to analyze based on contextual, implicit topics or keywords. 
 Refer to https://developer.twitter.com/en

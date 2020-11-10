@@ -41,5 +41,4 @@ A brief description of the steps we will take to complete the project:
 7. Get the results.
 
 ### Measurement
-The prediction is not only a result of who will win, but also it should include a ratio of the two
-group’s supporters.
+The prediction is not only a result of who will win, but also it should include a ratio of the two group’s supporters.

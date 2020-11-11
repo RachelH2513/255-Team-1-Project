@@ -2,9 +2,10 @@
 | ----------- | ----------- |
 | Wei He      | RachelH2513 |
 | Gabrielle   | gabrielleviray |
-| Roy Luo     | binwangluo  |
+| Binwang Luo     | binwangluo  |
 
-### Project Title: Who’ll win? Prediction of the Election’s result.
+### Project Title: Using chemical analysis determine the origin of wines  
+
 
 ### Data Source
 1. election-forecasts-2020.csv from

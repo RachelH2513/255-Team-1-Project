@@ -8,16 +8,14 @@
 
 
 ### Data Source
-1. wine.data from
+wine.data from
 https://archive.ics.uci.edu/ml/machine-learning-databases/wine/
 
 These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.  
 
 
 ### Problem/Question
-Twitter has become an important communication channel of Election. People can announce a
-viewpoint of election they’re observing with their smartphone. Based on these tweets, we can
-statistic people’s preference of the election’s results.
+Italian wine is produced in every region of Italy, home to some of the oldest wine-producing regions in the world. People can choose hundreds of wine grape varieties from Italy. As is known to us, each kind of grape wine has different chemical composition, which decide the taste, smell and nutritional value.
 This project will try multiple approaches to build different classifier model to predict the result of
 election.
 

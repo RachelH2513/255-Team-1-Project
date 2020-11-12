@@ -15,7 +15,7 @@ These data are the results of a chemical analysis of wines grown in the same reg
 
 
 ### Problem/Question
-Italian wine is produced in every region of Italy, home to some of the oldest wine-producing regions in the world. People can choose hundreds of wine grape varieties from Italy. As is known to us, each kind of grape wine has different chemical composition, which decide the taste, smell and nutritional value.
+Italian wine is produced in every region of Italy, home to some of the oldest wine-producing regions in the world. People can choose hundreds of wine grape varieties from Italy. As is known to us, each kind of grape wine has different chemical composition, which decide the taste, smell and nutritional value.  
 This project will analyse the chemical of wine and carry out that can recommmend to a guest what he/she may also interested in when we know what he/she likes with the chemical analysis. The objective is to investigate the following in the same region in Italy:
 
 ### Potential Methods

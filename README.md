@@ -68,6 +68,7 @@ Analysing the dataset we can see:
 
 ### Models for Operation
 1. Decision tree:  
-This model helps in presenting the origin of wines with the known chemistry  in the most efficient way, using a logical question structure, providing relevant information, and avoiding irrelevant questions and unnecessary detours.
-
+ A decision tree starts with a root node (A known chemistry) , after which it branches into various possible outcomes. These outcomes then lead to additional nodes until one reaches the right outcome.This model helps in presenting the origin of wines with the known chemistry  in the most efficient way, using a logical question structure, providing relevant information, and avoiding irrelevant questions and unnecessary detours.
+2. Clustering:
+Clustering algorithms are able to group together wines with similar chemistry. Once you have the groups, the wines with similar chemistry could be found to be recommended.
 

@@ -34,7 +34,7 @@ Overlaying the attributes of the dataset to feed as input to the model.
 
 #### C. Operation  
 We propose to do data analysis as input the following models to achieve the objective:  
-1. clustering
+1. Clustering
 Different types of wine will be corresponding from different cultivars. This operation will help us to tell the chemical constituents when we know where a wine is from.  
 2. Modeling.  
 We'll mainly use Decision tree to decide on predicting possible outcomes which is a tree-like model. However this model may cost us much time on training.

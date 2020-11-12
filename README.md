@@ -47,7 +47,7 @@ We'll mainly use Decision tree to decide on predicting possible outcomes which i
 When put in someone's preference of wine, we can get "what he/ she may also be interested in.  
 
 
-——————————————————————————————————————————————————————————————————————————————————————
+————————————————————————————————————————————————————————————
 ### Preliminary Analysis  
 
 #### Dataset Analysis  

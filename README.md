@@ -67,3 +67,7 @@ Analysing the dataset we can see:
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Clusters.png)  
 
 ### Models for Operation
+1. Decision tree:  
+This model helps in presenting the origin of wines with the known chemistry  in the most efficient way, using a logical question structure, providing relevant information, and avoiding irrelevant questions and unnecessary detours.
+
+

@@ -24,7 +24,7 @@ This project is based on the analyse the chemical of wine. The objective is to i
 
 
 ### Potential Methods
-#### A. Preprossing.  
+#### A. Preprossing.   
 1. Identify all the attributes needed in the analysis.
 2. Cleaning data and add column names.  
 3. Do the basic basic statistics and visualization.  
@@ -32,17 +32,12 @@ This project is based on the analyse the chemical of wine. The objective is to i
 #### B. Overlaying
 Overlaying the attributes of the dataset to feed as input to the model.  
 
-#### C. Modeling  
-We propose to do the recommendation of "You may also interested in these" as inout the following models to achieve the objective:  
-
-A brief description of the steps we will take to complete the project:
-1. Data pre-processing: Importing libraries and data.
-2. Data Analysis and Exploration
-3. Data Cleaning: Only key words to be analyzed in each tweet.
-4. Word cloud: Choose the word cloud for both electors’ supporters.
-5. Vectorization of the pre-processed text
-6. Build models and train.
-7. Get the results.
+#### C. Operation  
+We propose to do data analysis as input the following models to achieve the objective:  
+1. clustering
+Different types of wine will be corresponding from different cultivars. This operation will help us to tell the chemical constituents when we know where a wine is from.  
+2. Modeling.  
+We'll mainly use Decision tree to decide on predicting possible outcomes which is a tree-like model. However this model may cost us much time on training.
 
 ### Measurement
 The prediction is not only a result of who will win, but also it should include a ratio of the two group’s supporters.

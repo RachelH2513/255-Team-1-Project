@@ -27,7 +27,7 @@ Analysing the dataset we can see:
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Distribution2.jpeg)  
 3. This is the results of a basic statistics. We can see the specific quantity of all types of wines. We can see that all wines have these 13 types of chemistry.   
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/basic%20statistics.jpeg)  
-4. The figure shows a scatter diagram by the 2 strongest principal components. We can see that there should be 3 clusters in corresponding to three types of wines from three different cultivars,
+4. The figure shows a scatter diagram by the 2 strongest principal components. We can see that there should be 3 clusters in corresponding to three types of wines from three different cultivars.
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Clusters.png)  
 
 

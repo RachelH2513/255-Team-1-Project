@@ -28,6 +28,12 @@ This project is based on the analyse the chemical of wine. The objective is to i
 1. Identify all the attributes needed in the analysis.
 2. Cleaning data and add column names.  
 3. Do the basic basic statistics and visualization.  
+  
+#### B. Overlaying
+Overlaying the attributes of the dataset to feed as input to the model.  
+
+#### C. Modeling  
+We propose to do the recommendation of "You may also interested in these" as inout the following models to achieve the objective:  
 
 A brief description of the steps we will take to complete the project:
 1. Data pre-processing: Importing libraries and data.

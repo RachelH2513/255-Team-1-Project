@@ -43,7 +43,7 @@ We'll mainly use Decision tree to decide on predicting possible outcomes which i
 #### A. Visualization
 1. The chemistry interval distribution of all types of wine.   
 2. The cluster of the wines contain similar chemistry.  
-#### B. Prediction result  
+#### B. Purpose function 
 When put in someone's preference of wine, we can get "what he/ she may also be interested in.
 
 

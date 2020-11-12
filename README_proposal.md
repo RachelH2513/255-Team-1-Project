@@ -39,5 +39,11 @@ Different types of wine will be corresponding from different cultivars. This ope
 2. Modeling.  
 We'll mainly use Decision tree to decide on predicting possible outcomes which is a tree-like model. However this model may cost us much time on training.
 
-### Measurement
-The prediction is not only a result of who will win, but also it should include a ratio of the two group’s supporters.
+### Outcome
+#### A. Visualization
+1. The chemistry interval distribution of all types of wine.   
+2. The cluster of the wines contain similar chemistry.  
+#### B. Prediction result  
+When put in someone's preference of wine, we can get "what he/ she may also be interested in.
+
+

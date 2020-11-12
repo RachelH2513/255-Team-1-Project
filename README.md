@@ -47,8 +47,7 @@ We'll mainly use Decision tree to decide on predicting possible outcomes which i
 When put in someone's preference of wine, we can get "what he/ she may also be interested in.  
 
 
-—————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
-
+——————————————————————————————————————————————————————————————————————————————————————
 ### Preliminary Analysis  
 
 #### Dataset Analysis  
@@ -66,3 +65,5 @@ Analysing the dataset we can see:
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/basic%20statistics.jpeg)  
 4. The figure shows a scatter diagram by the 2 strongest principal components. We can see that there should be 3 clusters in corresponding to three types of wines from three different cultivars.
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Clusters.png)  
+
+### Models for Operation

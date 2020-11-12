@@ -24,9 +24,10 @@ This project is based on the analyse the chemical of wine. The objective is to i
 
 
 ### Potential Methods
-We propose two methods to predict the election:
-One is using existing records from data source 1 to make prediction. 
-The second one is trying to collect data by ourselves from social media APIs such as either twitter and Facebook.
+#### A. Preprossing.  
+1. Identify all the attributes needed in the analysis.
+2. Cleaning data and add column names.  
+3. Do the basic basic statistics and visualization.  
 
 A brief description of the steps we will take to complete the project:
 1. Data pre-processing: Importing libraries and data.

@@ -10,7 +10,7 @@ def service_func():
         print(menu + ': ' + menu_dict[menu])
     user_service = input('Please enter the service you need (1 ~ ' + str(len(menu_dict)) + '): ')
 
-    # Deal with invalid input
+    # Handle invalid input
     input_invalid = True
     while input_invalid:
 
@@ -29,7 +29,7 @@ def service(i):
             '2': 'Under Construction...',
             '3': 'Under Construction...'
             }
-    return switcher.get(i,"Unknown Error!")
+    return switcher.get(i,"The specified key does not exist!")()
 
 
 if __name__ == '__main__':

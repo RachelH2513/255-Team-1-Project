@@ -130,6 +130,7 @@ def wine_recommender():
     print("\nAccording to the chemical compostion, you might also like:\n")
     print(user_might_like['Wine ID'].to_list())
 
+
 if __name__ == '__main__':
     # wine_recommender.py executed as script
     # do something

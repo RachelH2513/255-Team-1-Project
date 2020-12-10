@@ -1,11 +1,13 @@
 import wine_clustering
+import sys
 
 def service_func():
-    print('*** WELCOME TO FA20 255-01 TEAM 1 WINE LAB ! ***')
+    print('\n*** WELCOME TO FA20 255-01 TEAM 1 WINE LAB ! ***\n')
     # Define service menu
     menu_dict = {'1':'Wine Recommendation',
                  '2':'Wine Region Analysis',
-                 '3':'Wine Clustering'}
+                 '3':'Wine Clustering',
+                 '4':'No thanks.'}
     for menu in menu_dict:
         print(menu + ': ' + menu_dict[menu])
     user_service = input('Please enter the service you need (1 ~ ' + str(len(menu_dict)) + '): ')
@@ -27,7 +29,8 @@ def service(i):
     switcher={
             '1': wine_clustering.wine_recommender,
             '2': 'Under Construction...',
-            '3': 'Under Construction...'
+            '3': 'Under Construction...',
+            '4': sys.exit
             }
     return switcher.get(i,"The specified key does not exist!")()
 

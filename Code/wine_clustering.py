@@ -1,3 +1,4 @@
+import service
 def wine_recommender():
     import numpy as np
     import seaborn as sns
@@ -73,21 +74,9 @@ def wine_recommender():
     # plt.show()
     # *********************************************************************************************************************
 
-    print("*** WELCOME TO FA20 255-01 TEAM 1 WINE LAB ! ***")
     # wine_IDs = np.arange(1, 179)
     # wine_IDs = data_ori.iloc[:, 0]
     # print(wine_IDs)
-    user_wine = input("\nPlease enter your favorite wine ID " + str((wine_IDs[0] + 1)) + " ~ " + str((wine_IDs.iloc[-1] + 1)) + ": ") 
-    
-    # Deal with invalid input
-    input_invalid = True
-    while input_invalid:
-
-        if not user_wine.isnumeric() or int(user_wine) - 1 not in wine_IDs:
-                print("Invalid input!")
-                user_wine = input("\nPlease enter your favorite wine ID " + str((wine_IDs[0] + 1)) + " ~ " + str((wine_IDs.iloc[-1] + 1)) + ": ") 
-        else:
-            input_invalid = False
 
     # Prepare data for kmean algorithm by standardizing it
     std_scaler = StandardScaler()
@@ -115,6 +104,26 @@ def wine_recommender():
         clusters.update({cluster_i : data[data['Cluster'] == cluster_i]})
     # print(clusters)
 
+    # Make recommendation
+    rec(data, wine_IDs, clusters)
+
+    
+
+
+# Make recommendation
+def rec(data, wine_IDs, clusters):
+
+    user_wine = input("\nPlease enter your favorite wine ID " + str((wine_IDs[0] + 1)) + " ~ " + str((wine_IDs.iloc[-1] + 1)) + ": ") 
+    
+    # Deal with invalid input
+    input_invalid = True
+    while input_invalid:
+
+        if not user_wine.isnumeric() or int(user_wine) - 1 not in wine_IDs:
+                print("Invalid input!")
+                user_wine = input("\nPlease enter your favorite wine ID " + str((wine_IDs[0] + 1)) + " ~ " + str((wine_IDs.iloc[-1] + 1)) + ": ") 
+        else:
+            input_invalid = False
     # Examine to which cluster the wine user selected belong
     user_cluster = data[data['Wine ID'] == int(user_wine) -1]['Cluster']
 
@@ -130,6 +139,21 @@ def wine_recommender():
     print("\nAccording to the chemical compostion, you might also like:\n")
     print(user_might_like['Wine ID'].to_list())
 
+    # submenu for user to choose from, either try more or go back to service menu
+    user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')
+
+    # Handle invalid input
+    input_invalid = True
+    while input_invalid:
+        if (user_next == '1'):
+            input_invalid = False
+            rec(data, wine_IDs, clusters)
+        elif (user_next == '2'):
+            input_invalid = False
+            service.service_func()
+        else: 
+            print("Invalid input!")
+            user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')
 
 if __name__ == '__main__':
     # wine_recommender.py executed as script

@@ -10,24 +10,31 @@
 - 5 Conclusion
 
 Code Running Instruction:
-- In terminal, under the directory where the code are, run <em>python service.py</em>
+1. In terminal, under the directory where the code are, run <em>python service.py</em>
 
-  You'll see an initial screen containing: 
+    You'll see an initial screen containing: 
   
-  - Welcome statement 
-  - Service menu
-  - User prompt for user to choose service
-- Enter the number corresponding to the service you desired
-- For service 1 [Wine Recommender]:
-  - Follow the prompt to enter wine ID from 1 to 178
+    - Welcome statement 
+    - Service menu
+    - User prompt for user to choose service
   
-        - Invalid input will be captured and handled, and user will be asked to enter again
-        - When input is valid, 5 random recommendations will be output
-        - Then submenu with option [1: Try More] and [2: Back to Service Menu] will be provided for user to choose what to do next.
-  - Follow the submenu to make next move
+2. Enter the number corresponding to the service you desired
+
+    For service 1 [Wine Recommender]:
+    
+      a. Follow the prompt to enter wine ID from 1 to 178
   
-        - If user entered 1 [Try More], user can enter another wine ID to get recommendation, with the same prompt as above
-        - If user entered 2 [Back to Service Menu], the initial screen will be shown again.
-- For service 2 [Wine Region Analysis]:
-- For service 3 [Wine Clustering]:
-- or user can enter 4 to exit the program
+      - Invalid input will be captured and handled, and user will be asked to enter again
+      - When input is valid, 5 random recommendations will be output
+      - Then submenu with option [1: Try More] and [2: Back to Service Menu] will be provided for user to choose what to do next.
+   
+      b. Follow the submenu to make next move
+  
+      - If user entered 1 [Try More], user can enter another wine ID to get recommendation, with the same prompt as above
+      - If user entered 2 [Back to Service Menu], the initial screen will be shown again.
+   
+    For service 2 [Wine Region Analysis]:
+
+    For service 3 [Wine Clustering]:
+
+    or user can enter 4 to exit the program

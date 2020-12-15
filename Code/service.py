@@ -32,13 +32,13 @@ def service(i):
             '1': wine_clustering.wine_recommender,
             '2': 'Under Construction...',
             '3': Clustering_wine_dataset.clustering,
-            '4': exit()
+            '4': bye
             }
     return switcher.get(i,"The specified key does not exist!")()
 
-def exit():
+def bye():
     print('Thanks for using our services. Happy Holiday!')
-    sys.exit()
+    sys.exit
 
 if __name__ == '__main__':
     # service.py executed as script

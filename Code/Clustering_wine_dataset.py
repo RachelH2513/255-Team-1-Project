@@ -130,8 +130,7 @@ def clustering():
             user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')
 
 if __name__ == '__main__':
-    # wine_recommender.py executed as script
-    # do something
+    # clustering.py executed as script
     clustering()
 
 

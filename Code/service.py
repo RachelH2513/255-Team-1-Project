@@ -30,7 +30,7 @@ def service_func():
 def service(i):
     switcher={
             '1': wine_clustering.wine_recommender,
-            '2': 'Under Construction...',
+            '2': pending,
             '3': Clustering_wine_dataset.clustering,
             '4': bye
             }
@@ -39,6 +39,10 @@ def service(i):
 def bye():
     print('Thanks for using our services. Happy Holiday!')
     sys.exit
+
+def pending():
+    print("Sorry, this service is still under construction...Please try again later!")
+    service(service_func())
 
 if __name__ == '__main__':
     # service.py executed as script

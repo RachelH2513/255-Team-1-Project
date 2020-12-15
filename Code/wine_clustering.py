@@ -150,7 +150,8 @@ def rec(data, wine_IDs, clusters):
             rec(data, wine_IDs, clusters)
         elif (user_next == '2'):
             input_invalid = False
-            service.service_func()
+            # service.service_func()
+            service.service(service.service_func())
         else: 
             print("Invalid input!")
             user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')

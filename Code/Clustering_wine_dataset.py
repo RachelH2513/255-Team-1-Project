@@ -1,6 +1,6 @@
 
 # In[1]:
-
+import service
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,7 +9,7 @@ import pandas as pd
 
 # In[2]:
 
-def clusering():
+def clustering():
     names = ['type','Alcohol','Malic acid','Ash','Alcalinity of ash','Magnesium','Total phenols','Flavanoids','Nonflavanoid phenols','Proanthocyanins','Color intensity','Hue','OD280/OD315 of diluted wines','Proline'] 
     file = pd.read_csv('Data/wine.data',names=names)
 
@@ -113,10 +113,26 @@ def clusering():
 
     # In[ ]:
 
+    # submenu for user to choose from, either try more or go back to service menu
+    user_next = input('\nDo you want to 1: Try Again   2: Back to Service Menu: ')
+
+    # Handle invalid input
+    input_invalid = True
+    while input_invalid:
+        if (user_next == '1'):
+            input_invalid = False
+            clustering()
+        elif (user_next == '2'):
+            input_invalid = False
+            service.service(service.service_func())
+        else: 
+            print("Invalid input!")
+            user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')
+
 if __name__ == '__main__':
     # wine_recommender.py executed as script
     # do something
-    clusering()
+    clustering()
 
 
 

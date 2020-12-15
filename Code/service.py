@@ -1,4 +1,5 @@
 import wine_clustering
+import Clustering_wine_dataset
 import sys
 
 def service_func():
@@ -10,7 +11,8 @@ def service_func():
                  '4':'No thanks.'}
     for menu in menu_dict:
         print(menu + ': ' + menu_dict[menu])
-    user_service = input('Please enter the service you need (1 ~ ' + str(len(menu_dict)) + '): ')
+        
+    user_service = input('\nPlease enter the service you need (1 ~ ' + str(len(menu_dict)) + '): ')
 
     # Handle invalid input
     input_invalid = True
@@ -29,7 +31,7 @@ def service(i):
     switcher={
             '1': wine_clustering.wine_recommender,
             '2': 'Under Construction...',
-            '3': 'Under Construction...',
+            '3': Clustering_wine_dataset.clusering,
             '4': sys.exit
             }
     return switcher.get(i,"The specified key does not exist!")()

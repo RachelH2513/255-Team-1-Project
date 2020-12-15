@@ -140,7 +140,7 @@ def rec(data, wine_IDs, clusters):
     print(user_might_like['Wine ID'].to_list())
 
     # submenu for user to choose from, either try more or go back to service menu
-    user_next = input('\nDo you want to 1: Try more   2: Back to Menu: ')
+    user_next = input('\nDo you want to 1: Try More   2: Back to Service Menu: ')
 
     # Handle invalid input
     input_invalid = True

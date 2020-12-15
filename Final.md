@@ -91,7 +91,7 @@ We built this project as a back-end of a wine recommendation system. In the syst
 
 ![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/1.png)  
 
-   3.3.2 **Wine Clustering.**
+   3.3.2  **Wine Clustering.**
 
 As describe of the data set, the region of these wines should be divided to 3 parts. We did the clustering for these wines to the follows steps. The code of this part in in Clustering of wine dataset, which will help to recommendation and finding the region of a wine. We used K-means and clustered the wines based on their chemical constituents. We standardized the data to have a zero mean and unit variance. We used PCA and reduced the dimensionality of data. To determine ideal number of clusters i applied elbow method which has given me 3 cluster. All the metrics indicates that 3 is the best cluster number. The silhouette score obtained is 0.56. The output as below:
 
@@ -108,7 +108,8 @@ Then you can see the system recommend you the other ID of wines you might be int
 
 **3.3.4 Use chemical analysis to determine the origin of wines **
 
-These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. After you choose the service 3, you can type in the as much chemical of a wine as you know. Then the system will tell you the region of the wine you want to know.
+These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. After you choose the service 3, you can type in the as much chemical of a wine as you know. Then the system will tell you the region of the wine you want to know.  
+
 
 **Chapter 4: Conclusions**
 

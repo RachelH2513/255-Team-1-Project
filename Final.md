@@ -108,7 +108,7 @@ Then you can see the system recommend you the other ID of wines you might be int
 
 **3.3.4 Use chemical analysis to determine the origin of wines **
 
-These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. After you choose the service 3, you can type in the as much chemical of a wine as you know. Then the system will tell you the region of the wine you want to know.  
+These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. After you choose the service 3, you can type in the as much chemical of a wine as you know. Then the system will tell you the region of the wine you want to know. Using K Nearest Neighbour (KNN) algorithm，also based on the result of clustering, we are able to classify the cultivar of an unknown wine according to its chemical constituents.
 
 
 **Chapter 4: Conclusions**

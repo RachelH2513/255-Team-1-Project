@@ -69,7 +69,7 @@ We did some basic statistic in preprocessing.
 
 1.First we analyzed and dataset and find that there is the distribution&#39;s count of chemistry of wines. As we can see there are 13 types of chemical in wines recorded in this data set, which means we only analyze these chemicals in this project. Proline is the highest content of some types of wine. And for most of wines, the content of Nonflavanoid phenols is the lowest.
 
-![![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Distribution1.jpg)  ](RackMultipart20201215-4-1luv9io_html_e12a6971eada944c.png)
+![image](https://github.com/RachelH2513/255-Team-1-Project/blob/main/images/Distribution1.jpg)  ](RackMultipart20201215-4-1luv9io_html_e12a6971eada944c.png)
 
 2. Second we analyzed the dataset and visualized it in another way. And then we get the diagram below. We can see Alcohol is a most common chemistry for most wines. And some types of wines have special high or low content of some chemistry such as Magesium or makic acid(especially high in some wines) and Ash (especially low in some wines). These wines can be used to determine the origin of wines.
 

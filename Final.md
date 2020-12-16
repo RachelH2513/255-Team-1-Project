@@ -131,6 +131,9 @@ These data are the results of a chemical analysis of wines grown in the same reg
 **4.4 Conclusion**
 
 - While implementing this project, we learned about a wide array of techniques, algorithms, and different preprocessing tasks involved in data analysis and prediction and how they affect the performance of the algorithms as a whole.
+- The data are clustered into 3 clusters using K-mean clustering and visualized after applying PCA algorithm.
+- According to user’s selection, the system is able to make 5 recommendations from the same cluster.
+- The system can classify an unknown wine as which cultivar it probably comes from.
 - We learned how to handle a imbalance dataset.
 - We learned how to apply various algorithms and use recommendation models.
 - We learned that the output of a model varies based on the requirement of the predictions.
